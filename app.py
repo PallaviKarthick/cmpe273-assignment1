@@ -14,10 +14,11 @@ try:
         # repository name
         # print str_array[-1]
         repositoryName = str_array[-1]
+        userName = str_array[-2]
 
-       # Github credentials
-        git = Github("pallavikarthick", "Github12#")
-        repo = git.get_user().get_repo(repositoryName)
+       
+        git = Github()
+        repo = git.get_user(userName).get_repo(repositoryName)
        
     else:
         sys.exit("Plase enter the Github Respository URL!!")
