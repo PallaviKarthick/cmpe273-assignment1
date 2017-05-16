@@ -1,0 +1,62 @@
+{
+    "httpMethod": "POST",
+    "body": {
+
+        "menu_id": "123456-123456",
+        "store_name": "Pizza Hut",
+        "selection": [
+            "Cheese",
+            "Pepperoni"
+        ],
+        "size": [
+            "Slice", "Small", "Medium", "Large", "X-Large"
+        ],
+        "price": [
+            "3.50", "7.00", "10.00", "15.00", "20.00"
+        ],
+        "store_hours": {
+            "Mon": "10am-10pm",
+            "Tue": "10am-10pm",
+            "Wed": "10am-10pm",
+            "Thu": "10am-10pm",
+            "Fri": "10am-10pm",
+            "Sat": "11am-12pm",
+            "Sun": "11am-12pm"
+        }
+
+    }
+}
+
+
+
+{
+    "httpMethod": "DELETE",
+    "body": {
+
+        "menu_id": "1234567890"
+
+    }
+}
+
+{
+    "httpMethod": "GET",
+    "body": {
+
+        "menu_id": "1234567890"
+
+    }
+}
+
+{
+    "httpMethod": "PUT",
+    "body": {
+
+        "menu_id": "546b2b42-2fa1-472e-a0f6-ec75cc4c9c5e",
+        "selection": [
+            "Cheese",
+            "Pepperoni",
+            "Apple"
+        ]
+
+    }
+}

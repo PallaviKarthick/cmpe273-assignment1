@@ -1,0 +1,37 @@
+{
+    "httpMethod": "GET",
+    "body": {
+        "order_id": "123456-123456"
+
+    }
+
+}
+
+{
+    "httpMethod": "PUT",
+    "body": {
+        "order_id": "123456-123456",
+        "input": "2"
+    }
+
+}
+
+{
+    "httpMethod": "DELETE",
+    "body": {
+        "order_id": "123456-123456"
+    }
+
+}
+
+{
+    "httpMethod": "POST",
+    "body": {
+        "order_id": "123456-123456",
+        "menu_id": "123456-123456",
+        "customer_name": "John Smith",
+        "customer_email": "foobar@gmail.com"
+
+    }
+
+}

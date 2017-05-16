@@ -1,0 +1,15 @@
+region: us-west-1
+
+function_name: pizzahut_size
+handler: service.handler
+role: lambdaCMPE273
+description: PizzaHut lambda function
+
+# if access key and secret are left blank, boto will use the credentials
+# defined in the [default] section of ~/.aws/credentials.
+aws_access_key_id: AKIAIXJMK3GZBLL4HM3Q
+aws_secret_access_key: 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
+
+# dist_directory: dist
+timeout: 15
+memory_size: 512
