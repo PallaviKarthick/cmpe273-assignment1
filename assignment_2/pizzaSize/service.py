@@ -5,7 +5,7 @@ import uuid
 from boto3.session import Session
 import time
 
-db_session = Session(aws_access_key_id='AKIAIXJMK3GZBLL4HM3Q' , aws_secret_access_key='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',region_name='us-west-1')
+db_session = Session(aws_access_key_id='******' , aws_secret_access_key='*******',region_name='us-west-1')
 dynamodb = db_session.resource('dynamodb')
 order_table = dynamodb.Table('Order')
 menu_table = dynamodb.Table('Menu')
